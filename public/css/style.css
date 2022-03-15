@@ -11276,3 +11276,21 @@ nav .search {
   background-repeat: no-repeat;
   background-position: center top;
 }
+
+main {
+  background-color: #1c1c1c;
+}
+main .container > .row {
+  padding: 75px 0;
+}
+main .comic-card {
+  color: #fff;
+}
+main .comic-card div {
+  height: 180px;
+  overflow: hidden;
+}
+main .comic-card p {
+  font-size: 1.2rem;
+  padding: 15px 0;
+}

@@ -47,3 +47,26 @@ nav {
    background-repeat: no-repeat;
    background-position: center top;
 }
+
+// MAIN
+main {
+   background-color: $main-gray;
+
+   .container {
+      > .row {
+         padding: 75px 0;
+      }
+   }
+   
+   .comic-card {
+      color: #fff;
+      div {
+         height: 180px;
+         overflow: hidden;
+      }
+      p {
+         font-size: 1.2rem;
+         padding: 15px 0;
+      }
+   }
+}

@@ -11247,3 +11247,24 @@ textarea.form-control-lg {
   height: 25px;
   background-color: #0282f9;
 }
+
+nav li {
+  height: 100%;
+}
+nav li a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #5e5e5e;
+  font-weight: bold;
+  margin: 0 15px;
+  text-decoration: none;
+  border-bottom: 3px solid #fff;
+}
+nav li a:hover {
+  border-bottom: 3px solid #0282f9;
+}
+nav .search {
+  border: 0;
+  border-bottom: 3px solid #0282f9;
+}

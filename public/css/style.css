@@ -11268,3 +11268,11 @@ nav .search {
   border: 0;
   border-bottom: 3px solid #0282f9;
 }
+
+.jumbotron {
+  height: 450px;
+  background-image: url(../images/jumbotron.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}

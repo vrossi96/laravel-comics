@@ -1,6 +1,8 @@
 @import '~bootstrap/scss/bootstrap';
 @import 'generics';
 
+
+// NAV
 .upper-nav {
    height: 25px;
    background-color: $main-blue;
@@ -35,4 +37,13 @@ nav {
       border: 0;
       border-bottom: 3px solid $main-blue;
    }
+}
+
+// JUMBOTRON
+.jumbotron {
+   height: 450px;
+   background-image: url(../images/jumbotron.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center top;
 }

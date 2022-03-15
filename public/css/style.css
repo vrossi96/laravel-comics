@@ -11243,3 +11243,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.upper-nav {
+  height: 25px;
+  background-color: #0282f9;
+}

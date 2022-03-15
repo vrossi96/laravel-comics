@@ -11291,7 +11291,7 @@ main .comic-card div {
   overflow: hidden;
 }
 main .comic-card p {
-  font-size: 1.2rem;
+  font-weight: 600;
   padding: 15px 0;
 }
 main .dc-button {

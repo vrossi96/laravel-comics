@@ -20,7 +20,7 @@ $comics = config('comics');
                            <div>
                               <img class="d-block" src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
                            </div>
-                           <p>{{ $comic['series'] }}</p>
+                           <p class="text-uppercase">{{ $comic['series'] }}</p>
                         </div>
                      </div>
                   @empty

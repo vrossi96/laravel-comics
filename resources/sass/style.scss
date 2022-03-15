@@ -160,3 +160,30 @@ main {
       background-position: center center;
    }
 }
+
+.bottom-footer {
+   padding: 20px 0;
+   background-color: $secondary-gray;
+
+   .btn-gray {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 10px;
+      border: 2px solid $main-blue;
+   }
+
+   .social {
+      p{
+         font-size: 1.3rem;
+         color: $main-blue;
+         margin-right: 15px;
+         margin-bottom: 0;
+         font-weight: 600;
+      }
+      a {
+         text-decoration: none;
+         margin: 0 10px;
+      }
+   }
+}

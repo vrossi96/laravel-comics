@@ -11372,3 +11372,26 @@ main .label h3, main .label .h3 {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.bottom-footer {
+  padding: 20px 0;
+  background-color: #303030;
+}
+.bottom-footer .btn-gray {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px;
+  border: 2px solid #0282f9;
+}
+.bottom-footer .social p {
+  font-size: 1.3rem;
+  color: #0282f9;
+  margin-right: 15px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.bottom-footer .social a {
+  text-decoration: none;
+  margin: 0 10px;
+}

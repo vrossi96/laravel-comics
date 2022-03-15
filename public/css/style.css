@@ -11317,3 +11317,17 @@ main .label h3, main .label .h3 {
   font-weight: bold;
   margin: 0;
 }
+
+.services {
+  background-color: #0282f9;
+}
+.services img {
+  height: 80px;
+  max-width: 80px;
+  margin-right: 10px;
+}
+.services p {
+  margin: 0;
+  color: #fff;
+  font-weight: 600;
+}

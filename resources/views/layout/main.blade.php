@@ -16,6 +16,8 @@
 
    @yield('main')
 
+   @include('layout.partials.services_bar')
+
    @include('layout.partials.footer')
 </body>
 

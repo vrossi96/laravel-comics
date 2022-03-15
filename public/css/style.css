@@ -11281,7 +11281,7 @@ main {
   background-color: #1c1c1c;
 }
 main .container > .row {
-  padding: 75px 0;
+  padding-top: 75px;
 }
 main .comic-card {
   color: #fff;
@@ -11293,4 +11293,27 @@ main .comic-card div {
 main .comic-card p {
   font-size: 1.2rem;
   padding: 15px 0;
+}
+main .dc-button {
+  background-color: #0282f9;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+  margin-top: 33px;
+  margin-bottom: 15px;
+}
+main .label {
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+  left: 0;
+  background-color: #0282f9;
+  padding: 10px 20px;
+}
+main .label h3, main .label .h3 {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
 }

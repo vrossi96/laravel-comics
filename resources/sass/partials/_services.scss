@@ -1,0 +1,15 @@
+// SERVICES BAR
+.services {
+   background-color: $main-blue;
+
+   img {
+      height: 80px;
+      max-width: 80px;
+      margin-right: 10px;
+   }
+   p {
+      margin: 0;
+      color: #fff;
+      font-weight: 600;
+   }
+}

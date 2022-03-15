@@ -11331,3 +11331,44 @@ main .label h3, main .label .h3 {
   color: #fff;
   font-weight: 600;
 }
+
+.top-footer {
+  color: #fff;
+  background-image: url(../images/footer-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.top-footer .footer-lists {
+  height: 365px;
+  margin-top: 50px;
+}
+.top-footer .footer-lists h3, .top-footer .footer-lists .h3 {
+  margin: 15px 0;
+}
+.top-footer .footer-lists ul {
+  list-style: none;
+}
+.top-footer .footer-lists ul a {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #5e5e5e;
+  text-decoration: none;
+}
+.top-footer .rights-disclaimer {
+  margin-bottom: 50px;
+}
+.top-footer .rights-disclaimer p {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #5e5e5e;
+}
+.top-footer .rights-disclaimer p a {
+  text-decoration: none;
+  color: #0282f9;
+}
+.top-footer .col-6:last-of-type {
+  background-image: url(../images/dc-logo-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}

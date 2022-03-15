@@ -21,6 +21,7 @@ $nav_links = config('nav_menu');
                   <ul class="nav d-flex align-items-center">
                      @foreach ($nav_links as $link)
                         <li>
+                           {{-- TODO aggiungere route --}}
                            <a class="text-uppercase" href="{{ $link['route'] }}">{{ $link['text'] }}</a>
                         </li>
                      @endforeach

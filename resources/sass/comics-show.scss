@@ -3,6 +3,11 @@
 // MAIN HOME
 .comics-show {
 
+   .blue-bar {
+      height: 90px;
+      background-color: $main-blue;
+   }
+
    .comic-desc, .adv {
       padding-top: 75px;
    }
@@ -10,14 +15,10 @@
    .comic-desc{
       position: relative;
 
-      .blue-bar {
-         height: 90px;
-         background-color: $main-blue;
-      }
-   
       .pricing {
          background-color: $main-green;
          display: flex;
+         // margin: 20px 0;
    
          font-weight: 600;
    
@@ -28,7 +29,7 @@
             color: #fff;
          }
          .pricing-details, .availability {
-            padding: 15px 20px;
+            padding: 10px 20px;
          }
          .pricing-details {
             display: flex;
@@ -104,6 +105,40 @@
             font-weight: 600;
             text-align: end;
          }
+      }
+   }
+
+   // BOTTOM DESC
+   .bottom-desc {
+      background-color: $bg-lighter-gray;
+      border-top: 1px solid $secondary-l-gray;
+      padding-top: 20px;
+      height: 300px;
+
+      .b-desc-section{
+         display: flex;
+         border-bottom: 1px solid $secondary-l-gray;
+         padding: 5px 0;
+         p, a {
+            font-size: 14px;
+         }
+         p {
+            margin: 0;
+         }
+         a {
+            text-decoration: none;
+            color: $main-blue;
+            font-weight: 600;
+         }
+         &> div:first-of-type{
+            width: 25%;
+         }
+         &> div:last-of-type{
+            width: 75%;
+         }
+      }
+      .b-desc-section:first-of-type {
+         border-top: 1px solid $secondary-l-gray;
       }
    }
 }

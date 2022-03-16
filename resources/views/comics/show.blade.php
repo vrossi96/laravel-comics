@@ -9,7 +9,8 @@
 @section('main')
    <main class="comics-show">
       <div class="blue-bar"></div>
-      <div class="card-section container position-relative">
+      {{-- TOP DESC WITH ADV --}}
+      <div class="container">
          <div class="row">
             <div class="col-10 offset-1">
                <div class="row">
@@ -46,6 +47,78 @@
                         <div>
                            <p>ADVERTISEMENT</p>
                            <img src="{{ asset('images/sadv.jpg') }}" alt="ADV">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      {{-- BOTTOM DESC --}}
+      <div class="bottom-desc">
+         <div class="container">
+            <div class="row">
+               <div class="col-10 offset-1">
+                  <div class="row">
+                     <div class="col-6">
+                        <h4>Talent</h4>
+                        {{-- ARTISTS --}}
+                        <div class="b-desc-section">
+                           <div>
+                              <p>Art by:</p>
+                           </div>
+                           <div>
+                              @foreach ($single_comic['artists'] as $artist)
+                                 <a href="#">{{ $artist }}</a>
+                                 @if (!$loop->last)
+                                    ,
+                                 @endif
+                              @endforeach
+                           </div>
+                        </div>
+                        {{-- WRITERS --}}
+                        <div class="b-desc-section">
+                           <div>
+                              <p>Written by:</p>
+                           </div>
+                           <div>
+                              @foreach ($single_comic['writers'] as $artist)
+                                 <a href="#">{{ $artist }}</a>
+                                 @if (!$loop->last)
+                                    ,
+                                 @endif
+                              @endforeach
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-6">
+                        <h4>Specs</h4>
+                        {{-- SERIES --}}
+                        <div class="b-desc-section">
+                           <div>
+                              <p>Series:</p>
+                           </div>
+                           <div>
+                              <a class="text-uppercase" href="#">{{ $single_comic['series'] }}</a>
+                           </div>
+                        </div>
+                        {{-- PRICE --}}
+                        <div class="b-desc-section">
+                           <div>
+                              <p>U.S. Price:</p>
+                           </div>
+                           <div>
+                              <p class="text-uppercase">{{ $single_comic['price'] }}</p>
+                           </div>
+                        </div>
+                        {{-- SALE DATE --}}
+                        <div class="b-desc-section">
+                           <div>
+                              <p>On Sale Date:</p>
+                           </div>
+                           <div>
+                              <p class="text-uppercase">{{ $single_comic['sale_date'] }}</p>
+                           </div>
                         </div>
                      </div>
                   </div>

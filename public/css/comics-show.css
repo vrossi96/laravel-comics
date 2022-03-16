@@ -1,12 +1,12 @@
+.comics-show .blue-bar {
+  height: 90px;
+  background-color: #0282f9;
+}
 .comics-show .comic-desc, .comics-show .adv {
   padding-top: 75px;
 }
 .comics-show .comic-desc {
   position: relative;
-}
-.comics-show .comic-desc .blue-bar {
-  height: 90px;
-  background-color: #0282f9;
 }
 .comics-show .comic-desc .pricing {
   background-color: #55ba59;
@@ -20,7 +20,7 @@
   color: #fff;
 }
 .comics-show .comic-desc .pricing .pricing-details, .comics-show .comic-desc .pricing .availability {
-  padding: 15px 20px;
+  padding: 10px 20px;
 }
 .comics-show .comic-desc .pricing .pricing-details {
   display: flex;
@@ -79,4 +79,35 @@
   margin: 0;
   font-weight: 600;
   text-align: end;
+}
+.comics-show .bottom-desc {
+  background-color: #f6f6f6;
+  border-top: 1px solid #dfdfdf;
+  padding-top: 20px;
+  height: 300px;
+}
+.comics-show .bottom-desc .b-desc-section {
+  display: flex;
+  border-bottom: 1px solid #dfdfdf;
+  padding: 5px 0;
+}
+.comics-show .bottom-desc .b-desc-section p, .comics-show .bottom-desc .b-desc-section a {
+  font-size: 14px;
+}
+.comics-show .bottom-desc .b-desc-section p {
+  margin: 0;
+}
+.comics-show .bottom-desc .b-desc-section a {
+  text-decoration: none;
+  color: #0282f9;
+  font-weight: 600;
+}
+.comics-show .bottom-desc .b-desc-section > div:first-of-type {
+  width: 25%;
+}
+.comics-show .bottom-desc .b-desc-section > div:last-of-type {
+  width: 75%;
+}
+.comics-show .bottom-desc .b-desc-section:first-of-type {
+  border-top: 1px solid #dfdfdf;
 }

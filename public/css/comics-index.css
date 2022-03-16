@@ -4,14 +4,15 @@
 .comics-index .container > .row {
   padding-top: 75px;
 }
-.comics-index .comic-card {
-  color: #fff;
+.comics-index .comic-card a {
+  text-decoration: none;
 }
 .comics-index .comic-card div {
   height: 180px;
   overflow: hidden;
 }
 .comics-index .comic-card p {
+  color: #fff;
   font-weight: 600;
   padding: 15px 0;
 }

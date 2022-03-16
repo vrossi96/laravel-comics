@@ -18,13 +18,15 @@ $comics = config('comics');
                {{-- CARD ROW --}}
                <div class="row">
                   {{-- CARD COMIC --}}
-                  @forelse ($comics as $comic)
+                  @forelse ($comics as $index => $comic)
                      <div class="col-2">
-                        <div role="button" class="comic-card">
-                           <div>
-                              <img class="d-block" src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
-                           </div>
-                           <p class="text-uppercase">{{ $comic['series'] }}</p>
+                        <div class="comic-card">
+                           <a href="{{ route('comics.show', ['id' => $index]) }}">
+                              <div>
+                                 <img class="d-block" src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
+                              </div>
+                              <p class="text-uppercase">{{ $comic['series'] }}</p>
+                           </a>
                         </div>
                      </div>
                   @empty

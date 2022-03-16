@@ -11,12 +11,15 @@
    }
    
    .comic-card {
-      color: #fff;
+      a {
+         text-decoration: none;
+      }
       div {
          height: 180px;
          overflow: hidden;
       }
       p {
+         color: #fff;
          font-weight: 600;
          padding: 15px 0;
       }

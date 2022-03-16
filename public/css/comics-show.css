@@ -84,7 +84,6 @@
   background-color: #f6f6f6;
   border-top: 1px solid #dfdfdf;
   padding-top: 20px;
-  height: 300px;
 }
 .comics-show .bottom-desc .b-desc-section {
   display: flex;
@@ -113,4 +112,41 @@
 }
 .comics-show .bottom-desc .b-desc-section:first-of-type {
   border-top: 1px solid #dfdfdf;
+}
+.comics-show .bottom-desc .services-gray-bar {
+  border-top: 1px solid #dfdfdf;
+  margin-top: 90px;
+}
+.comics-show .bottom-desc .services-gray-bar .service {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.comics-show .bottom-desc .services-gray-bar .service p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #c0c0c0;
+}
+.comics-show .bottom-desc .services-gray-bar .service:hover .sprite {
+  background-position-y: 100%;
+}
+.comics-show .bottom-desc .services-gray-bar .service .sprite {
+  height: 37px;
+  width: 37px;
+  background-image: url(../images/cta-icons.png);
+}
+.comics-show .bottom-desc .services-gray-bar .col-3 {
+  border-left: 1px solid #dfdfdf;
+}
+.comics-show .bottom-desc .services-gray-bar .col-3:nth-of-type(2) .sprite {
+  background-position-x: 32.5%;
+}
+.comics-show .bottom-desc .services-gray-bar .col-3:nth-of-type(3) .sprite {
+  background-position-x: 67%;
+}
+.comics-show .bottom-desc .services-gray-bar .col-3:nth-of-type(4) {
+  border-right: 1px solid #dfdfdf;
+}
+.comics-show .bottom-desc .services-gray-bar .col-3:nth-of-type(4) .sprite {
+  background-position-x: 100%;
 }

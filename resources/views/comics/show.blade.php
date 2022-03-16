@@ -125,6 +125,41 @@
                </div>
             </div>
          </div>
+         <div class="services-gray-bar">
+            <div class="container">
+               <div class="row">
+                  <div class="col-10 offset-1">
+                     <div class="row">
+                        <div class="col-3">
+                           <div class="service">
+                              <p>DIGITAL COMICS</p>
+                              <div class="sprite"></div>
+                              {{-- <img src="{{ asset('images/cta-icons.png') }}" alt=""> --}}
+                           </div>
+                        </div>
+                        <div class="col-3">
+                           <div class="service">
+                              <p>SHOP DC</p>
+                              <div class="sprite"></div>
+                           </div>
+                        </div>
+                        <div class="col-3">
+                           <div class="service">
+                              <p>COMIC SHOP LOCATOR</p>
+                              <div class="sprite"></div>
+                           </div>
+                        </div>
+                        <div class="col-3">
+                           <div class="service">
+                              <p>SUBSCRIPTIONS</p>
+                              <div class="sprite"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
    </main>
 @endsection

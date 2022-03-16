@@ -4,7 +4,11 @@ $comics = config('comics');
 
 @extends('layout.main')
 
-@section('title-name', 'Home')
+@section('specific-style')
+   <link rel="stylesheet" href="{{ asset('css/main-characters.css') }}">
+@endsection
+
+@section('title-name', 'Main Characters')
 
 @section('main')
    <main class="main-characters">

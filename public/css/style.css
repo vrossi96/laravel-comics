@@ -11355,47 +11355,6 @@ nav .search {
   margin: 0 10px;
 }
 
-.main-home {
-  background-color: #1c1c1c;
-}
-.main-home .container > .row {
-  padding-top: 75px;
-}
-.main-home .comic-card {
-  color: #fff;
-}
-.main-home .comic-card div {
-  height: 180px;
-  overflow: hidden;
-}
-.main-home .comic-card p {
-  font-weight: 600;
-  padding: 15px 0;
-}
-.main-home .dc-button {
-  background-color: #0282f9;
-  color: #fff;
-  text-align: center;
-  font-weight: bold;
-  padding: 10px 0;
-  margin-top: 33px;
-  margin-bottom: 15px;
-}
-.main-home .label {
-  position: absolute;
-  top: 0;
-  transform: translateY(-50%);
-  left: 0;
-  background-color: #0282f9;
-  padding: 10px 20px;
-}
-.main-home .label h3, .main-home .label .h3 {
-  color: #fff;
-  text-align: center;
-  font-weight: bold;
-  margin: 0;
-}
-
 .main-characters {
   background-color: #1c1c1c;
 }

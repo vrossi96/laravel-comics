@@ -19414,6 +19414,17 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
+/***/ "./resources/sass/comics-index.scss":
+/*!******************************************!*\
+  !*** ./resources/sass/comics-index.scss ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/style.scss":
 /*!***********************************!*\
   !*** ./resources/sass/style.scss ***!
@@ -19426,14 +19437,15 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /***/ }),
 
 /***/ 0:
-/*!***************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/style.scss ***!
-  \***************************************************************/
+/*!**************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/style.scss ./resources/sass/comics-index.scss ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\Users\Vasco Rossi\Documents\Boolean\Laravel\laravel-comics\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Vasco Rossi\Documents\Boolean\Laravel\laravel-comics\resources\sass\style.scss */"./resources/sass/style.scss");
+__webpack_require__(/*! C:\Users\Vasco Rossi\Documents\Boolean\Laravel\laravel-comics\resources\sass\style.scss */"./resources/sass/style.scss");
+module.exports = __webpack_require__(/*! C:\Users\Vasco Rossi\Documents\Boolean\Laravel\laravel-comics\resources\sass\comics-index.scss */"./resources/sass/comics-index.scss");
 
 
 /***/ })

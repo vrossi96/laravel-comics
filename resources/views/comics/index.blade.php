@@ -4,10 +4,14 @@ $comics = config('comics');
 
 @extends('layout.main')
 
+@section('specific-style')
+   <link rel="stylesheet" href="{{ asset('css/comics-index.css') }}">
+@endsection
+
 @section('title-name', 'Home')
 
 @section('main')
-   <main class="main-home">
+   <main class="comics-index">
       <div class="card-section container position-relative">
          <div class="row">
             <div class="col-12">

@@ -1,3 +1,7 @@
+.comics-show .comic-desc {
+  position: relative;
+  padding-top: 75px;
+}
 .comics-show .blue-bar {
   height: 90px;
   background-color: #0282f9;
@@ -27,9 +31,6 @@
 .comics-show .pricing .availability {
   border-left: 1px solid black;
 }
-.comics-show .container > .row {
-  padding-top: 75px;
-}
 .comics-show .dc-button {
   background-color: #0282f9;
   color: #fff;
@@ -38,4 +39,9 @@
   padding: 10px 0;
   margin-top: 33px;
   margin-bottom: 15px;
+}
+.comics-show .label-img {
+  position: absolute;
+  bottom: calc(100% + 20px);
+  left: 0;
 }

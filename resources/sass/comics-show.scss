@@ -3,6 +3,11 @@
 // MAIN HOME
 .comics-show {
 
+   .comic-desc{
+      position: relative;
+      padding-top: 75px;
+   }
+
    .blue-bar {
       height: 90px;
       background-color: $main-blue;
@@ -36,13 +41,6 @@
       }
    }
 
-
-   .container {
-      > .row {
-         padding-top: 75px;
-      }
-   }
-   
    .dc-button {
       background-color: $main-blue;
 
@@ -55,20 +53,9 @@
       margin-bottom: 15px;
    }
 
-   // .label-img {
-   //    position: absolute;
-   //    top: 0;
-   //    transform: translateY(-50%);
-   //    left: 0;
-
-   //    background-color: $main-blue;
-
-   //    padding: 10px 20px;
-   //    h3{         
-   //       color: #fff;
-   //       text-align: center;
-   //       font-weight: bold;
-   //       margin: 0;
-   //    }
-   // }
+   .label-img {
+      position: absolute;
+      bottom: calc(100% + 20px);
+      left: 0;
+   }
 }

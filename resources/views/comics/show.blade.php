@@ -1,7 +1,3 @@
-@php
-$comics = config('comics');
-@endphp
-
 @extends('layout.main')
 
 @section('specific-style')
@@ -20,6 +16,11 @@ $comics = config('comics');
                   {{-- LEFT PART DESC --}}
                   <div class="col-8">
                      <div class="comic-desc">
+                        {{-- COMIC IMG LABEL --}}
+                        <div class="label-img">
+                           <img src="{{ $single_comic['thumb'] }}" alt="{{ $single_comic['title'] }}">
+                        </div>
+                        {{-- COMIC TITLE --}}
                         <h2 class="text-uppercase">{{ $single_comic['title'] }}</h2>
                         {{-- PRICING GREEN BAR --}}
                         <div class="pricing">
@@ -31,16 +32,14 @@ $comics = config('comics');
                               <p>Check Availability</p>
                            </div>
                         </div>
+                        {{-- COMIC DESC --}}
+                        <p>{{ $single_comic['description'] }}</p>
                      </div>
                   </div>
                   {{-- ADVERTISING --}}
                   <div class="col-4"></div>
                </div>
             </div>
-         </div>
-         {{-- LABEL --}}
-         <div class="label-img">
-
          </div>
       </div>
    </main>

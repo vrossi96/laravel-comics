@@ -14,5 +14,6 @@ const mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/style.scss', 'public/css')
     .sass('resources/sass/comics-index.scss', 'public/css')
+    .sass('resources/sass/comics-show.scss', 'public/css')
     .sass('resources/sass/main-characters.scss', 'public/css')
     .options({ processCssUrls: false });

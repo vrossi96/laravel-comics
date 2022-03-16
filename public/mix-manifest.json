@@ -2,5 +2,6 @@
     "/js/app.js": "/js/app.js",
     "/css/style.css": "/css/style.css",
     "/css/comics-index.css": "/css/comics-index.css",
+    "/css/comics-show.css": "/css/comics-show.css",
     "/css/main-characters.css": "/css/main-characters.css"
 }

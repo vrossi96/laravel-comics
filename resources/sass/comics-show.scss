@@ -1,0 +1,53 @@
+@import 'vars';
+
+// MAIN HOME
+.comics-show {
+   background-color: $main-gray;
+
+   .container {
+      > .row {
+         padding-top: 75px;
+      }
+   }
+   
+   .comic-card {
+      color: #fff;
+      div {
+         height: 180px;
+         overflow: hidden;
+      }
+      p {
+         font-weight: 600;
+         padding: 15px 0;
+      }
+   }
+
+   .dc-button {
+      background-color: $main-blue;
+
+      color: #fff;
+      text-align: center;
+      font-weight: bold;
+
+      padding: 10px 0;
+      margin-top: 33px;
+      margin-bottom: 15px;
+   }
+
+   .label {
+      position: absolute;
+      top: 0;
+      transform: translateY(-50%);
+      left: 0;
+
+      background-color: $main-blue;
+
+      padding: 10px 20px;
+      h3{         
+         color: #fff;
+         text-align: center;
+         font-weight: bold;
+         margin: 0;
+      }
+   }
+}

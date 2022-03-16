@@ -18,6 +18,10 @@
                      <div class="comic-desc">
                         {{-- COMIC IMG LABEL --}}
                         <div class="label-img">
+                           {{-- TOP LEFT TEXT --}}
+                           <p>{{ $single_comic['type'] }}</p>
+                           {{-- BOTTOM TEXT --}}
+                           <a href="#">view gallery</a>
                            <img src="{{ $single_comic['thumb'] }}" alt="{{ $single_comic['title'] }}">
                         </div>
                         {{-- COMIC TITLE --}}

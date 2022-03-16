@@ -10,15 +10,13 @@
 </head>
 
 <body>
-   @include('layout.partials.header')
+   @include('includes.header')
 
-   @include('layout.partials.jumbotron')
+   @include('includes.jumbotron')
 
    @yield('main')
 
-   @include('layout.partials.services_bar')
-
-   @include('layout.partials.footer')
+   @include('includes.footer')
 </body>
 
 </html>

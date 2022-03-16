@@ -27,8 +27,8 @@ $socials = config('social');
                </div>
                <div class="rights-disclaimer">
                   <p>All Site Content TM and C 2022 DC Entertainment, unless otherwhise <a
-                        href="{{ route('home') }}">noted here.</a> All rights reserved.</p>
-                  <p><a href="{{ route('home') }}">Cookies Settings</a></p>
+                        href="{{ route('comics.index') }}">noted here.</a> All rights reserved.</p>
+                  <p><a href="{{ route('comics.index') }}">Cookies Settings</a></p>
                </div>
             </div>
             <div class="col-6"></div>

@@ -43,4 +43,5 @@ $comics = config('comics');
          </div>
       </div>
    </main>
+   @include('includes.services_bar')
 @endsection

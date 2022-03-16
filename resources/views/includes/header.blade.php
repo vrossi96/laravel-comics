@@ -13,7 +13,7 @@ $nav_links = config('nav_menu');
                <div class="d-flex align-content-center justify-content-between">
                   {{-- LOGO LEFT --}}
                   <div class="logo-nav">
-                     <a href="{{ route('home') }}">
+                     <a href="{{ route('comics.index') }}">
                         <img class="d-block py-3" src="{{ asset('images/dc-logo.png') }}" alt="DC Logo">
                      </a>
                   </div>

@@ -2,7 +2,40 @@
 
 // MAIN HOME
 .comics-show {
-   background-color: $main-gray;
+
+   .blue-bar {
+      height: 90px;
+      background-color: $main-blue;
+   }
+
+   .pricing {
+      background-color: $main-green;
+      display: flex;
+
+      font-weight: 600;
+
+      p {
+         margin: 0;
+      }
+      p span, .availability {
+         color: #fff;
+      }
+      .pricing-details, .availability {
+         padding: 15px 20px;
+      }
+      .pricing-details {
+         display: flex;
+         flex-grow: 1;
+         justify-content: space-between;
+         > * {
+            color: $secondary-green;
+         }
+      }
+      .availability {
+         border-left: 1px solid black;
+      }
+   }
+
 
    .container {
       > .row {
@@ -10,18 +43,6 @@
       }
    }
    
-   .comic-card {
-      color: #fff;
-      div {
-         height: 180px;
-         overflow: hidden;
-      }
-      p {
-         font-weight: 600;
-         padding: 15px 0;
-      }
-   }
-
    .dc-button {
       background-color: $main-blue;
 
@@ -34,20 +55,20 @@
       margin-bottom: 15px;
    }
 
-   .label {
-      position: absolute;
-      top: 0;
-      transform: translateY(-50%);
-      left: 0;
+   // .label-img {
+   //    position: absolute;
+   //    top: 0;
+   //    transform: translateY(-50%);
+   //    left: 0;
 
-      background-color: $main-blue;
+   //    background-color: $main-blue;
 
-      padding: 10px 20px;
-      h3{         
-         color: #fff;
-         text-align: center;
-         font-weight: bold;
-         margin: 0;
-      }
-   }
+   //    padding: 10px 20px;
+   //    h3{         
+   //       color: #fff;
+   //       text-align: center;
+   //       font-weight: bold;
+   //       margin: 0;
+   //    }
+   // }
 }

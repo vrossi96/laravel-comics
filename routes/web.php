@@ -18,7 +18,10 @@ Route::get('/', function () {
 })->name('comics.index');
 
 Route::get('/comics', function () {
-    return view('comics.show');
+    $comics = config('comics');
+    $single_comic = $comics[0];
+
+    return view('comics.show', compact('single_comic'));
 })->name('comics.show');
 
 Route::get('characters', function () {

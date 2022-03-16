@@ -12,38 +12,35 @@ $comics = config('comics');
 
 @section('main')
    <main class="comics-show">
+      <div class="blue-bar"></div>
       <div class="card-section container position-relative">
          <div class="row">
-            <div class="col-12">
-               {{-- CARD ROW --}}
+            <div class="col-10 offset-1">
                <div class="row">
-                  {{-- CARD COMIC --}}
-                  @forelse ($comics as $comic)
-                     <div class="col-2">
-                        <div role="button" class="comic-card">
-                           <div>
-                              <img class="d-block" src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
+                  {{-- LEFT PART DESC --}}
+                  <div class="col-8">
+                     <div class="comic-desc">
+                        <h2 class="text-uppercase">{{ $single_comic['title'] }}</h2>
+                        {{-- PRICING GREEN BAR --}}
+                        <div class="pricing">
+                           <div class="pricing-details">
+                              <p>U.S. Price: <span>{{ $single_comic['price'] }}</span></p>
+                              <span>AVAILABLE</span>
                            </div>
-                           <p class="text-uppercase">{{ $comic['series'] }}</p>
+                           <div class="availability">
+                              <p>Check Availability</p>
+                           </div>
                         </div>
                      </div>
-                  @empty
-                     <h1 class="text-center">Nessun Fumetto selezionato</h1>
-                  @endforelse
-               </div>
-               {{-- BUTTON BOTTOM --}}
-               <div class="row">
-                  <div class="col-2 offset-5">
-                     <div class="text-uppercase dc-button" role="button">
-                        load more
-                     </div>
                   </div>
+                  {{-- ADVERTISING --}}
+                  <div class="col-4"></div>
                </div>
             </div>
          </div>
          {{-- LABEL --}}
-         <div class="label">
-            <h3 class="text-uppercase">current series</h3>
+         <div class="label-img">
+
          </div>
       </div>
    </main>

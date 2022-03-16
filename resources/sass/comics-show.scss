@@ -3,86 +3,107 @@
 // MAIN HOME
 .comics-show {
 
-   .comic-desc{
-      position: relative;
+   .comic-desc, .adv {
       padding-top: 75px;
    }
 
-   .blue-bar {
-      height: 90px;
-      background-color: $main-blue;
-   }
+   .comic-desc{
+      position: relative;
 
-   .pricing {
-      background-color: $main-green;
-      display: flex;
-
-      font-weight: 600;
-
-      p {
-         margin: 0;
+      .blue-bar {
+         height: 90px;
+         background-color: $main-blue;
       }
-      p span, .availability {
-         color: #fff;
-      }
-      .pricing-details, .availability {
-         padding: 15px 20px;
-      }
-      .pricing-details {
+   
+      .pricing {
+         background-color: $main-green;
          display: flex;
-         flex-grow: 1;
-         justify-content: space-between;
-         > * {
-            color: $secondary-green;
+   
+         font-weight: 600;
+   
+         p {
+            margin: 0;
+         }
+         p span, .availability {
+            color: #fff;
+         }
+         .pricing-details, .availability {
+            padding: 15px 20px;
+         }
+         .pricing-details {
+            display: flex;
+            flex-grow: 1;
+            justify-content: space-between;
+            > * {
+               color: $secondary-green;
+            }
+         }
+         .availability {
+            border-left: 1px solid black;
          }
       }
-      .availability {
-         border-left: 1px solid black;
-      }
-   }
-
-   .dc-button {
-      background-color: $main-blue;
-
-      color: #fff;
-      text-align: center;
-      font-weight: bold;
-
-      padding: 10px 0;
-      margin-top: 33px;
-      margin-bottom: 15px;
-   }
-
-   .label-img {
-      position: absolute;
-      bottom: calc(100% + 20px);
-      left: 0;
-
-      border: 1px solid #fff;
-
-      p, a {
-         position: absolute;
-         left: 0;
-
+   
+      .dc-button {
+         background-color: $main-blue;
+   
          color: #fff;
-         background-color: $secondary-blue;
-
-         text-transform: uppercase;
-         font-size: 14px;
-      }
-      p {
-         top: 0;
-
-         margin: 0;
-         padding: 0 9px;
-      }
-      a {
-         display: block;
-         width: 100%;
-         bottom: 0;
-
          text-align: center;
-         text-decoration: none;
+         font-weight: bold;
+   
+         padding: 10px 0;
+         margin-top: 33px;
+         margin-bottom: 15px;
+      }
+   
+      .label-img {
+         position: absolute;
+         bottom: calc(100% + 20px);
+         left: 0;
+   
+         border: 1px solid #fff;
+   
+         p, a {
+            position: absolute;
+            left: 0;
+   
+            color: #fff;
+            background-color: $secondary-blue;
+   
+            text-transform: uppercase;
+            font-size: 14px;
+         }
+         p {
+            top: 0;
+   
+            margin: 0;
+            padding: 0 9px;
+         }
+         a {
+            display: block;
+            width: 100%;
+            bottom: 0;
+   
+            text-align: center;
+            text-decoration: none;
+         }
+      }
+   }
+
+
+   // ADV
+   .adv {
+      &> div {
+         text-align: end;
+         position: relative;
+
+         p {
+            position: absolute;
+            bottom: 100%;
+            right: 0;
+            margin: 0;
+            font-weight: 600;
+            text-align: end;
+         }
       }
    }
 }

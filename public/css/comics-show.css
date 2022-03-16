@@ -1,37 +1,39 @@
-.comics-show .comic-desc {
-  position: relative;
+.comics-show .comic-desc, .comics-show .adv {
   padding-top: 75px;
 }
-.comics-show .blue-bar {
+.comics-show .comic-desc {
+  position: relative;
+}
+.comics-show .comic-desc .blue-bar {
   height: 90px;
   background-color: #0282f9;
 }
-.comics-show .pricing {
+.comics-show .comic-desc .pricing {
   background-color: #55ba59;
   display: flex;
   font-weight: 600;
 }
-.comics-show .pricing p {
+.comics-show .comic-desc .pricing p {
   margin: 0;
 }
-.comics-show .pricing p span, .comics-show .pricing .availability {
+.comics-show .comic-desc .pricing p span, .comics-show .comic-desc .pricing .availability {
   color: #fff;
 }
-.comics-show .pricing .pricing-details, .comics-show .pricing .availability {
+.comics-show .comic-desc .pricing .pricing-details, .comics-show .comic-desc .pricing .availability {
   padding: 15px 20px;
 }
-.comics-show .pricing .pricing-details {
+.comics-show .comic-desc .pricing .pricing-details {
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
 }
-.comics-show .pricing .pricing-details > * {
+.comics-show .comic-desc .pricing .pricing-details > * {
   color: #b4fd9c;
 }
-.comics-show .pricing .availability {
+.comics-show .comic-desc .pricing .availability {
   border-left: 1px solid black;
 }
-.comics-show .dc-button {
+.comics-show .comic-desc .dc-button {
   background-color: #0282f9;
   color: #fff;
   text-align: center;
@@ -40,13 +42,13 @@
   margin-top: 33px;
   margin-bottom: 15px;
 }
-.comics-show .label-img {
+.comics-show .comic-desc .label-img {
   position: absolute;
   bottom: calc(100% + 20px);
   left: 0;
   border: 1px solid #fff;
 }
-.comics-show .label-img p, .comics-show .label-img a {
+.comics-show .comic-desc .label-img p, .comics-show .comic-desc .label-img a {
   position: absolute;
   left: 0;
   color: #fff;
@@ -54,15 +56,27 @@
   text-transform: uppercase;
   font-size: 14px;
 }
-.comics-show .label-img p {
+.comics-show .comic-desc .label-img p {
   top: 0;
   margin: 0;
   padding: 0 9px;
 }
-.comics-show .label-img a {
+.comics-show .comic-desc .label-img a {
   display: block;
   width: 100%;
   bottom: 0;
   text-align: center;
   text-decoration: none;
+}
+.comics-show .adv > div {
+  text-align: end;
+  position: relative;
+}
+.comics-show .adv > div p {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  margin: 0;
+  font-weight: 600;
+  text-align: end;
 }

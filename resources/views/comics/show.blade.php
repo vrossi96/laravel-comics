@@ -41,7 +41,14 @@
                      </div>
                   </div>
                   {{-- ADVERTISING --}}
-                  <div class="col-4"></div>
+                  <div class="col-4">
+                     <div class="adv">
+                        <div>
+                           <p>ADVERTISEMENT</p>
+                           <img src="{{ asset('images/sadv.jpg') }}" alt="ADV">
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>

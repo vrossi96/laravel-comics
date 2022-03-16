@@ -11,6 +11,7 @@
 .comics-show .comic-desc .pricing {
   background-color: #55ba59;
   display: flex;
+  margin: 20px 0;
   font-weight: 600;
 }
 .comics-show .comic-desc .pricing p {

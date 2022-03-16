@@ -117,6 +117,7 @@
 
       .b-desc-section{
          display: flex;
+         align-items: center;
          border-bottom: 1px solid $secondary-l-gray;
          padding: 5px 0;
          p, a {
@@ -132,9 +133,11 @@
          }
          &> div:first-of-type{
             width: 25%;
+            align-self: flex-start;
          }
          &> div:last-of-type{
             width: 75%;
+            line-height: 80%;
          }
       }
       .b-desc-section:first-of-type {
